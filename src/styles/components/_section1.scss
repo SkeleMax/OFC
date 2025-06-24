@@ -1,0 +1,38 @@
+.hero {
+    background: url(/kartinky/Main\ page\ \(1\).svg) no-repeat center center/cover;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #947c57;
+  }
+
+  .hero h1 {
+    font-size: 108px;
+    font-weight: 300;
+  }
+
+  .hero p {
+    margin-top: 8px;
+    font-size: 36px;
+    font-weight: 484;
+  }
+
+  .hero button {
+    margin-bottom: 100px;
+    padding: 12px 43px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    color: #000; 
+    transition: background-color 0.3s;
+  }
+  
+  .hero button:hover {
+    background-color: rgba(255, 255, 255, 0.9); 
+  }
