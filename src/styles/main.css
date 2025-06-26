@@ -1,3 +1,40 @@
+.hero {
+  background: url(/kartinky/Main\ page\ \(1\).svg) no-repeat center center/cover;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: #947c57;
+}
+.hero__title {
+  font-size: 108px;
+  font-weight: 300;
+}
+.hero__subtitle {
+  margin-top: 8px;
+  font-size: 36px;
+  font-weight: 484;
+}
+.hero__button-wrapper {
+  margin-bottom: 100px;
+}
+.hero__button {
+  padding: 12px 43px;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: #000;
+  transition: background-color 0.3s;
+}
+.hero__button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 body {
   margin: 0;
 }/*# sourceMappingURL=main.css.map */
